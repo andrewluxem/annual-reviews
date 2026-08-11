@@ -1,0 +1,24 @@
+{
+  "name": "annual-reviews",
+  "version": "1.0.0",
+  "owner": {
+    "name": "Andrew Luxem"
+  },
+  "description": "Static agent skill for manager reviews, self-reviews, and evidence audits without invented performance claims.",
+  "plugins": [
+    {
+      "name": "annual-reviews",
+      "version": "1.0.0",
+      "source": "./",
+      "description": "Manager Review Draft, Self-Review Draft, Annual Review Audit. Static: no network calls, no remote fetch, no auto-update. Version-pinned.",
+      "category": "productivity",
+      "tags": [
+        "agent-skills",
+        "annual-review",
+        "claude-code",
+        "people-management",
+        "performance-review"
+      ]
+    }
+  ]
+}
