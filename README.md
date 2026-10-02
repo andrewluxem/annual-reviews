@@ -30,6 +30,8 @@ Or install it as a Claude Code plugin:
 
 For clients that install from an archive, keep using the versioned [annual-reviews v1.0.0 ZIP](https://www.andrewluxem.com/downloads/annual-reviews-v1.0.0.zip).
 
+Also available as a ChatGPT plugin (OpenAI plugin directory, in review).
+
 ## Invoke it
 
 ```text

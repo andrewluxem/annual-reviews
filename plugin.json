@@ -1,0 +1,41 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "annual-reviews",
+  "version": "1.0.0",
+  "description": "Draft annual reviews and self-reviews from performance notes. Evidence ledgers, rubric mapping, bias audits. Helps you write it; never decides ratings or promotions.",
+  "author": {
+    "name": "Some Luck Productions LLC",
+    "url": "https://andrewluxem.com"
+  },
+  "homepage": "https://github.com/andrewluxem/annual-reviews",
+  "repository": "https://github.com/andrewluxem/annual-reviews",
+  "license": "MIT",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Annual Review Drafter",
+        "shortDescription": "Draft reviews from evidence",
+        "longDescription": "Drafts manager reviews and self-reviews from performance notes, with an evidence ledger behind every strength and growth area, rubric mapping, and measurable development actions. The Review Audit checks period coverage, attribution, evidence quality, and biased language in an existing draft. Missing incidents, dates, metrics, or rubric terms are shown as gaps, never filled in. It does not recommend or fill in ratings and does not make layoff, promotion, compensation, or termination decisions; those stay with the people accountable for them. Built from the Annual Reviews playbook at andrewluxem.com. Static skill: no network calls.",
+        "developerName": "Some Luck Productions LLC",
+        "category": "Productivity",
+        "capabilities": [
+          "Manager review drafts with an evidence ledger",
+          "Self-review drafts from your own notes",
+          "Review audits for evidence gaps and biased language"
+        ],
+        "websiteURL": "https://github.com/andrewluxem/annual-reviews",
+        "supportURL": "https://github.com/andrewluxem/annual-reviews/issues",
+        "privacyPolicyURL": "https://andrewluxem.com/plugins/privacy",
+        "defaultPrompt": [
+          "Turn these performance notes into my self-review",
+          "Draft an annual review for my direct report",
+          "Audit this review for bias"
+        ],
+        "brandColor": "#5B3F8C",
+        "brandColorDark": "#C3AEEB",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}
