@@ -1,0 +1,41 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "annual-reviews",
+  "version": "1.0.0",
+  "description": "Write annual performance reviews and self-reviews from your performance notes. Evidence-backed strengths and growth areas, rubric mapping, and bias checks for existing drafts.",
+  "author": {
+    "name": "Some Luck Productions LLC",
+    "url": "https://andrewluxem.com"
+  },
+  "homepage": "https://github.com/andrewluxem/annual-reviews",
+  "repository": "https://github.com/andrewluxem/annual-reviews",
+  "license": "MIT",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Performance Review Drafter",
+        "shortDescription": "Performance review drafts",
+        "longDescription": "Helps managers and employees write annual performance reviews. Paste your performance notes, goals, or feedback and get a Manager Review Draft for a direct report or a Self-Review Draft for yourself. Every strength and growth area is tied to an evidence ledger, mapped to your company's rubric when you provide one, and paired with measurable development actions. Already have a draft? The Review Audit checks it for period coverage, attribution, evidence quality, and biased language. Missing dates, metrics, or examples are flagged as gaps instead of being made up. The person writing the review keeps every decision: it does not assign ratings or make promotion, compensation, or termination calls. Built from the Annual Reviews playbook at andrewluxem.com. Static skill: no network calls.",
+        "developerName": "Some Luck Productions LLC",
+        "category": "Business & Operations",
+        "capabilities": [
+          "Draft an annual performance review for a direct report",
+          "Draft your own self-review from your notes",
+          "Audit a review draft for evidence gaps and biased language"
+        ],
+        "websiteURL": "https://github.com/andrewluxem/annual-reviews",
+        "supportURL": "https://github.com/andrewluxem/annual-reviews/issues",
+        "privacyPolicyURL": "https://andrewluxem.com/plugins/privacy",
+        "defaultPrompt": [
+          "Turn these performance notes into my self-review",
+          "Draft an annual review for my direct report",
+          "Check this performance review for bias"
+        ],
+        "brandColor": "#5B3F8C",
+        "brandColorDark": "#C3AEEB",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}
