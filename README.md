@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/banner.svg" alt="annual-reviews: Static agent skill for manager reviews, self-reviews, and evidence audits without invented performance claims."></p>
+
 # annual-reviews
 
 An annual review should connect claims to evidence across the full review period. This skill produces manager and self-review drafts that leave unsupported specifics visible, plus an audit that finds evidence and rubric risks before delivery.
